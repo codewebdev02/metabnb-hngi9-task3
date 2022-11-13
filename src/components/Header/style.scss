@@ -68,7 +68,6 @@
 
                     &.connect_btn_mb button {
                         display: none;
-                        margin-left: 20px;
 
                         @media screen and (max-width: 600px) {
                             display: block;
@@ -117,14 +116,6 @@
 
         .hamburger {
             display: none;
-
-            // div {
-            //     width: 45px;
-            //     margin: 5px;
-            //     height: 6px;
-            //     background-color: #A02279;
-            // }
-
             i,
             .closeIcon {
                 font-size: 30px;

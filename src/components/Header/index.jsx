@@ -32,13 +32,13 @@ const Header = ({ setOpenModal }) => {
             </li>
           </ul>
         </nav>
-        <div className="connect-wallet">
+        <div className="connect-wallet right">
           <button className="connect_btn" onClick={() => setOpenModal(true)}>
             Connect wallet
           </button>
-        </div>
-        <div className="hamburger">
-          <Hamburger toggled={isOpen} toggle={setOpen} />
+          <div className="hamburger">
+            <Hamburger toggled={isOpen} toggle={setOpen} />
+          </div>
         </div>
       </div>
     </div>

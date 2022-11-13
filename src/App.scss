@@ -22,8 +22,14 @@ h2 {
 }
 
 .connect-wallet {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
   @media screen and (max-width: 600px) {
-    display: none;
+    .connect_btn {
+      display: none;
+    }
   }
 }
 
