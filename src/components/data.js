@@ -26,22 +26,12 @@ import restaurant15 from "../assets/placetostay/play-to-stay-015.png";
 import restaurant16 from "../assets/placetostay/play-to-stay-016.png";
 
 //Cottage
-import cottage1 from "../assets/placetostay/play-to-stay-001.png";
-import cottage2 from "../assets/placetostay/play-to-stay-002.png";
-import cottage3 from "../assets/placetostay/play-to-stay-003.png";
-import cottage4 from "../assets/placetostay/play-to-stay-004.png";
-import cottage5 from "../assets/placetostay/play-to-stay-005.png";
-import cottage6 from "../assets/placetostay/play-to-stay-006.png";
-import cottage7 from "../assets/placetostay/play-to-stay-007.png";
-import cottage8 from "../assets/placetostay/play-to-stay-008.png";
-import cottage9 from "../assets/placetostay/play-to-stay-009.png";
-import cottage10 from "../assets/placetostay/play-to-stay-010.png";
-import cottage11 from "../assets/placetostay/play-to-stay-011.png";
-import cottage12 from "../assets/placetostay/play-to-stay-012.png";
-import cottage13 from "../assets/placetostay/play-to-stay-013.png";
-import cottage14 from "../assets/placetostay/play-to-stay-014.png";
-import cottage15 from "../assets/placetostay/play-to-stay-015.png";
-import cottage16 from "../assets/placetostay/play-to-stay-016.png";
+
+import metaBNBimg1 from "../assets/placetostay/play-to-stay-006.png";
+import metaBNBimg2 from "../assets/placetostay/play-to-stay-007.png";
+import metaBNBimg3 from "../assets/placetostay/play-to-stay-008.png";
+import metaBNBimg4 from "../assets/placetostay/play-to-stay-009.png";
+import metaBNBimg5 from "../assets/placetostay/play-to-stay-010.png";
 
 export const inspiration = [
   {
@@ -302,7 +292,7 @@ export const playToStay = [
   },
   {
     id: 22,
-    img: cottage6,
+    img: metaBNBimg1,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -311,7 +301,7 @@ export const playToStay = [
   },
   {
     id: 23,
-    img: cottage7,
+    img: metaBNBimg2,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -320,7 +310,7 @@ export const playToStay = [
   },
   {
     id: 24,
-    img: cottage8,
+    img: metaBNBimg3,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -329,7 +319,7 @@ export const playToStay = [
   },
   {
     id: 25,
-    img: cottage9,
+    img: metaBNBimg4,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -338,7 +328,7 @@ export const playToStay = [
   },
   {
     id: 26,
-    img: cottage10,
+    img: metaBNBimg5,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -392,7 +382,7 @@ export const playToStay = [
   },
   {
     id: 32,
-    img: cottage6,
+    img: metaBNBimg1,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -401,7 +391,7 @@ export const playToStay = [
   },
   {
     id: 33,
-    img: cottage7,
+    img: metaBNBimg2,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -410,7 +400,7 @@ export const playToStay = [
   },
   {
     id: 34,
-    img: cottage8,
+    img: metaBNBimg3,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -419,7 +409,7 @@ export const playToStay = [
   },
   {
     id: 35,
-    img: cottage9,
+    img: metaBNBimg4,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -428,7 +418,7 @@ export const playToStay = [
   },
   {
     id: 36,
-    img: cottage10,
+    img: metaBNBimg5,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -482,7 +472,7 @@ export const playToStay = [
   },
   {
     id: 42,
-    img: cottage6,
+    img: metaBNBimg1,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -491,7 +481,7 @@ export const playToStay = [
   },
   {
     id: 43,
-    img: cottage7,
+    img: metaBNBimg2,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -500,7 +490,7 @@ export const playToStay = [
   },
   {
     id: 44,
-    img: cottage8,
+    img: metaBNBimg3,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -509,7 +499,7 @@ export const playToStay = [
   },
   {
     id: 45,
-    img: cottage9,
+    img: metaBNBimg4,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -518,7 +508,7 @@ export const playToStay = [
   },
   {
     id: 46,
-    img: cottage10,
+    img: metaBNBimg5,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -572,7 +562,7 @@ export const playToStay = [
   },
   {
     id: 52,
-    img: cottage6,
+    img: metaBNBimg1,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -581,7 +571,7 @@ export const playToStay = [
   },
   {
     id: 53,
-    img: cottage7,
+    img: metaBNBimg2,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -590,7 +580,7 @@ export const playToStay = [
   },
   {
     id: 54,
-    img: cottage8,
+    img: metaBNBimg3,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -599,7 +589,7 @@ export const playToStay = [
   },
   {
     id: 55,
-    img: cottage9,
+    img: metaBNBimg4,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -608,7 +598,7 @@ export const playToStay = [
   },
   {
     id: 56,
-    img: cottage10,
+    img: metaBNBimg5,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -662,7 +652,7 @@ export const playToStay = [
   },
   {
     id: 62,
-    img: cottage6,
+    img: metaBNBimg1,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -671,7 +661,7 @@ export const playToStay = [
   },
   {
     id: 63,
-    img: cottage7,
+    img: metaBNBimg2,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -680,7 +670,7 @@ export const playToStay = [
   },
   {
     id: 64,
-    img: cottage8,
+    img: metaBNBimg3,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -689,7 +679,7 @@ export const playToStay = [
   },
   {
     id: 65,
-    img: cottage9,
+    img: metaBNBimg4,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -698,7 +688,7 @@ export const playToStay = [
   },
   {
     id: 66,
-    img: cottage10,
+    img: metaBNBimg5,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -752,7 +742,7 @@ export const playToStay = [
   },
   {
     id: 72,
-    img: cottage6,
+    img: metaBNBimg1,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -761,7 +751,7 @@ export const playToStay = [
   },
   {
     id: 73,
-    img: cottage7,
+    img: metaBNBimg2,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -770,7 +760,7 @@ export const playToStay = [
   },
   {
     id: 74,
-    img: cottage8,
+    img: metaBNBimg3,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -779,7 +769,7 @@ export const playToStay = [
   },
   {
     id: 75,
-    img: cottage9,
+    img: metaBNBimg4,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -788,7 +778,7 @@ export const playToStay = [
   },
   {
     id: 76,
-    img: cottage10,
+    img: metaBNBimg5,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -842,7 +832,7 @@ export const playToStay = [
   },
   {
     id: 82,
-    img: cottage6,
+    img: metaBNBimg1,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -851,7 +841,7 @@ export const playToStay = [
   },
   {
     id: 83,
-    img: cottage7,
+    img: metaBNBimg2,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -860,7 +850,7 @@ export const playToStay = [
   },
   {
     id: 84,
-    img: cottage8,
+    img: metaBNBimg3,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -869,7 +859,7 @@ export const playToStay = [
   },
   {
     id: 85,
-    img: cottage9,
+    img: metaBNBimg4,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",
@@ -878,7 +868,7 @@ export const playToStay = [
   },
   {
     id: 86,
-    img: cottage10,
+    img: metaBNBimg5,
     title: "Desert king",
     duration: "1MBT per night",
     distance: "2345km away",

@@ -4,6 +4,7 @@ import "./App.scss";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import WalletConnectModal from "./components/Modal/WalletModal";
+import ScrollToTop from "./components/ScrollToTop";
 import Community from "./pages/Community";
 import Home from "./pages/Home";
 import Nfts from "./pages/Nfts";
@@ -13,6 +14,7 @@ function App() {
   const [openModal, setOpenModal] = useState(false);
   return (
     <div className="App">
+      <ScrollToTop />
       <Header setOpenModal={setOpenModal} />
       <WalletConnectModal openModal={openModal} setOpenModal={setOpenModal} />
       <Routes>

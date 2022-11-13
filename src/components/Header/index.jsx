@@ -7,11 +7,6 @@ import { useState } from "react";
 
 const Header = ({ setOpenModal }) => {
   const [isOpen, setOpen] = useState(false);
-  let activeStyle = {
-    textDecoration: "underline",
-  };
-
-  // let activeClassName = "underline";
 
   return (
     <div className="Header">

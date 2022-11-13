@@ -1,5 +1,3 @@
-import { placeToStay } from "../../../components/data";
-import { StarRatingComponent } from "../../../components/StarRating/starRating";
 import { playToStay } from "../../../components/data";
 import "./style.scss";
 import { useState } from "react";
