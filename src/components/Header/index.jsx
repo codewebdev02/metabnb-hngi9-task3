@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/logo.svg";
 import { Squash as Hamburger } from "hamburger-react";
 import {NavLinkList} from "./MenuList.js";
@@ -12,7 +12,9 @@ const Header = ({ setOpenModal }) => {
     <div className="Header">
       <div className="container inHeader">
         <div className="logo">
-          <img src={logo} alt="logo" />
+          <Link to="/">
+            <img src={logo} alt="logo" />
+          </Link>
         </div>
         <nav className={"navMenu " + (isOpen && "openMenu")}>
           <ul>

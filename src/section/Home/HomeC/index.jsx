@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import img1 from "../../../assets/img1.png";
-import img2 from "../../../assets/img2.png";
-import img3 from "../../../assets/img3.png";
+import metabnbImg from "../../../assets/groupimg.png";
+// import img2 from "../../../assets/img2.png";
+// import img3 from "../../../assets/img3.png";
 import "./styles.scss";
 
 const HomeC = () => {
@@ -18,9 +18,9 @@ const HomeC = () => {
           <Link to="">Learn more</Link>
         </div>
         <div className="right">
-          <img src={img1} alt="" />
-          <img src={img2} alt="" />
-          <img src={img3} alt="" />
+          <img src={metabnbImg} alt="" />
+          {/* <img src={img2} alt="" />
+          <img src={img3} alt="" /> */}
         </div>
       </div>
     </div>
