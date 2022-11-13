@@ -1,0 +1,161 @@
+.Banner {
+    .inBanner {
+        margin-top: 175px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+        gap: 20px;
+
+        @media screen and (max-width: 767px) {
+            margin-top: 150px;
+        }
+
+
+        .left {
+            width: 636px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+            h1 {
+                font-weight: 400;
+                font-size: 56px;
+                line-height: 78px;
+                letter-spacing: -0.02em;
+                color: #434343;
+                margin: 0;
+                padding: 0;
+
+                @media screen and (max-width: 767px) {
+                    font-size: 40px;
+                    line-height: 55px;
+                }
+
+                span {
+                    background: linear-gradient(180deg, #A02279 79.31%, rgba(255, 192, 137, 0.6) 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                }
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 35px;
+                color: #434343;
+                margin-top: 48px;
+                padding: 0;
+
+                @media screen and (max-width: 767px) {
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-top: 30px;
+                }
+            }
+
+            .searchBox {
+                margin-top: 48.08px;
+                display: flex;
+                margin-right: 27.29px;
+
+                input {
+                    background: rgba(247, 247, 247, 0.1);
+                    border: 1px solid #A3A3A3;
+                    border-radius: 8px 0px 0px 8px;
+                    padding: 15px;
+                    width: 100%;
+                    font-family: 'Red Rose';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 130%;
+                    color: #818181;
+                    outline: none;
+
+                    &::placeholder {
+                        color: #B8B8B8;
+                    }
+                }
+
+                button {
+                    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+                    border-radius: 0px 8px 8px 0px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    height: 54px;
+                    width: 230px;
+                    border: none;
+                    outline: none;
+                    font-family: 'Red Rose', cursive;
+                }
+
+                @media screen and (max-width: 767px) {
+                    margin-right: 0;
+                    margin-bottom: 50px;
+                    flex-direction: column;
+
+                    input {
+                        border-radius: 8px;
+                    }
+
+                    button {
+                        border-radius: 8px;
+                        width: 100%;
+                        margin: auto;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            width: 476px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                justify-content: flex-end;
+                gap: 8px;
+                margin-right: 8px;
+
+                img {
+                    max-width: 100%;
+                }
+
+                &:first-child {
+                    position: relative;
+                    top: 99px;
+                }
+            }
+        }
+
+        @media screen and (max-width: 1171px) {
+            align-items: center;
+
+            .left {
+                width: 100%;
+                max-width: 1000px;
+                margin: auto;
+                text-align: center;
+            }
+
+            .right {
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

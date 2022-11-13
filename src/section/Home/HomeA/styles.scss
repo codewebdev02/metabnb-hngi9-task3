@@ -1,0 +1,47 @@
+.HomeA {
+    margin-top: 67px;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    width: 100%;
+    min-height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .inHomeA {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 264px;
+
+        img {
+            max-width: 200px;
+        }
+
+        @media screen and (max-width: 1168px) {
+            gap: 200px;
+
+            img {
+                max-width: 160px;
+            }
+        }
+
+        @media screen and (max-width: 920px) {
+            gap: 150px;
+
+            img {
+                max-width: 130px;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            gap: 30px;
+
+            img {
+                max-width: 130px;
+            }
+        }
+    }
+}

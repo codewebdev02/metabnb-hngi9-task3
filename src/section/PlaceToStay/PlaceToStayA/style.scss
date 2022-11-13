@@ -1,0 +1,146 @@
+.PlaceToStayA {
+    margin-top: 175px;
+    margin-bottom: 50px;
+
+    .inPlaceToStayA {
+        position: relative;
+
+        .topBar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 75px;
+            gap: 10px;
+
+            .left {
+                display: flex;
+                align-items: center;
+                gap: 38px;
+                width: 100%;
+
+                button {
+                    text-transform: capitalize;
+                    display: block;
+                    // max-width: min-content;
+                    width: 100%;
+                    background-color: transparent;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 25px;
+                    color: #434343;
+                    font-family: 'Red Rose', cursive;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    text-align: center;
+                    transition: all .03 ease-in;
+                    position: relative;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        width: 100%;
+                        transform: scaleX(0);
+                        height: 2px;
+                        bottom: -5px;
+                        left: 0;
+                        background-color: #140C40;
+                        transform-origin: bottom right;
+                        transition: transform 0.25s ease-out;
+                    }
+
+                    &:hover {
+                        &::after {
+                            transform: scaleX(1);
+                            transform-origin: bottom left;
+                        }
+                    }
+                }
+
+                .activeButton {
+                    position: relative;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        width: 100%;
+                        transform: scaleX(1);
+                        height: 2px;
+                        bottom: -5px;
+                        left: 0;
+                        background-color: #140C40;
+                        transform-origin: bottom right;
+                        transition: transform 0.25s ease-out;
+                    }
+                }
+
+                @media screen and (max-width: 1170px) {
+                    gap: 30px;
+                    overflow-x: scroll;
+                    overflow-y: hidden;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+
+                    button {
+                        min-width: max-content;
+                    }
+                }
+
+                @media screen and (max-width: 767px) {
+                    margin: 0;
+                }
+            }
+
+            .right {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+
+                .filter {
+                    display: flex;
+                    align-items: center;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+
+                    .inFilter {
+                        width: 161px;
+                        height: 48px;
+                        background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+                        border: 1px solid #B4B4B4;
+                        border-radius: 8px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 13px;
+                        gap: 10px;
+
+                        span {
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #333333;
+                        }
+                    }
+                }
+
+                @media screen and (max-width: 1170px) {
+                    width: 167px;
+                }
+            }
+
+            @media screen and (max-width: 767px) {
+                align-items: flex-start;
+                flex-direction: column-reverse;
+            }
+        }
+
+        .inPlaceToStayAContent {
+            .InPlMhm {
+                margin: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,152 @@
+.container {
+  max-width: 1240px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+}
+
+.connect-wallet {
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}
+
+.connect_btn,
+.connect_btn_mb button {
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  height: 48px;
+  width: 170px;
+  border: none;
+  outline: none;
+  font-family: 'Red Rose';
+  font-style: normal;
+}
+
+.connect_btn {
+  @media screen and (max-width: 767px) {
+    height: 40px;
+  }
+}
+
+//Card style
+.dGrid {
+  @media screen and (max-width:1231px) {
+    max-width: 930px;
+    margin: auto;
+  }
+
+  @media screen and (max-width:929px) {
+    max-width: 600px;
+
+    .box {
+      width: 292px;
+      border: 1px solid red;
+    }
+  }
+
+  @media screen and (max-width:625px) {
+    max-width: 295px;
+  }
+
+}
+
+
+.InPlMhm {
+  margin-top: 43px;
+  display: grid;
+  // align-items: center;
+  // justify-content: center;
+  // flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+
+  .box {
+    width: 292px;
+    min-height: 372px;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid #D7D7D7;
+    border-radius: 15px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+
+    .imgBox {
+      width: 260px;
+      height: 265px;
+      border-radius: 15px;
+      overflow: hidden;
+
+      img {
+        max-width: 100%;
+        height: 265px;
+        // object-fit: cover;
+      }
+    }
+
+    .boxInfo {
+      width: 100%;
+      padding-top: 16px;
+
+      .bInfo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+
+        &:last-child {
+          margin-bottom: 0px;
+        }
+
+        span {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 13px;
+          color: #434343;
+
+          &.bInfoFl {
+            font-weight: 700;
+          }
+        }
+      }
+
+      // .starRating {
+      //     margin: 0;
+      //     padding: 0;
+      // }
+    }
+
+  }
+}
+
+.ant-tabs-tab-btn {
+  color: #434343;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: 'Red Rose', cursive;
+}
