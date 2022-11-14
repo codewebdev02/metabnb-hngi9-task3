@@ -22,7 +22,7 @@
                     text-transform: capitalize;
                     display: block;
                     // max-width: min-content;
-                    width: 100%;
+                    // width: 100%;
                     background-color: transparent;
                     font-style: normal;
                     font-weight: 400;
@@ -100,7 +100,7 @@
             }
 
             .right {
-                width: 100%;
+                width: 161px;
                 display: flex;
                 align-items: center;
                 justify-content: flex-end;
@@ -145,9 +145,9 @@
         }
 
         .inPlaceToStayAContent {
-            .InPlMhm {
-                margin: 0;
-            }
+            // .InPlMhm {
+            //     margin: 0;
+            // }
         }
     }
 }

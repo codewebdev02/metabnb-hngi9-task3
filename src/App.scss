@@ -55,30 +55,9 @@ h2 {
   }
 }
 
-//Card style
-.dGrid {
-  @media screen and (max-width:1231px) {
-    max-width: 930px;
-    margin: auto;
-  }
-
-  @media screen and (max-width:929px) {
-    max-width: 600px;
-  }
-
-  @media screen and (max-width:625px) {
-    max-width: 295px;
-  }
-
-}
-
-
 .InPlMhm {
   margin-top: 43px;
   display: grid;
-  // align-items: center;
-  // justify-content: center;
-  // flex-wrap: wrap;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 24px;
 
@@ -99,11 +78,24 @@ h2 {
       height: 265px;
       border-radius: 15px;
       overflow: hidden;
+      position: relative;
 
       img {
         max-width: 100%;
         min-height: 265px;
         // object-fit: cover;
+      }
+
+      .wishlist {
+        position: absolute;
+        right: 10px;
+        top: -110px;
+
+        img {
+          width: 20px;
+          height: 18px;
+          cursor: pointer;
+        }
       }
     }
 
@@ -138,6 +130,32 @@ h2 {
     @media screen and (max-width: 400px) {
       width: 100%;
     }
+
+    @media screen and (max-width: 350px) {
+      max-width: 240px;
+
+      .imgBox {
+        height: 200px;
+      }
+
+      img {
+        min-height: 140px;
+      }
+    }
+
+    @media screen and (max-width: 350px) {
+      min-height: 250px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 630px;
+    margin: auto;
+  }
+
+  @media screen and (max-width: 665px) {
+    max-width: 310px;
   }
 }
 

@@ -6,6 +6,9 @@ const Card = ({ item }) => {
     <div className="box">
       <div className="imgBox">
         <img src={item.img} alt="" />
+        <div className="wishlist">
+          <img src={item.wishlist} alt="" />
+        </div>
       </div>
       <div className="boxInfo">
         <div className="bInfo">

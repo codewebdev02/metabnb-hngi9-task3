@@ -48,7 +48,7 @@ const PlaceToStayA = () => {
             </button>
             <button className={`button ${active === "active7" ? "activeButton" : ""}`}
               onClick={() => { filterResult("offgrid"); setActive("active7"); setRest(true);}}>
-              Carbins
+              Off-grid
             </button>
             <button className={`button ${active === "active8" ? "activeButton" : ""}`}
               onClick={() => { filterResult("farm"); setActive("active8"); setRest(true);}}>
